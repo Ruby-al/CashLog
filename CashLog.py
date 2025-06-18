@@ -74,7 +74,7 @@ class ExpenseTracker:
             elif choice == "5":
                 self.view_all_expenses()
             elif choice == "6":
-                print("👋 Goodbye!")
+                print("Goodbye!")
                 break
             else:
                 print("❌ Invalid choice. Try again.") 
