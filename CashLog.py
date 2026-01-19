@@ -42,7 +42,7 @@ class ExpenseTracker:
                                WHERE id = ?''', 
                                (new_amount, new_category, new_description, expense_id))
         self.conn.commit()
-        print("✅ Expense updated successfully!")
+        print(" Expense updated successfully!")
 
     def delete_expense(self):
         self.view_all_expenses()
@@ -77,7 +77,7 @@ class ExpenseTracker:
                 print("Goodbye!")
                 break
             else:
-                print("❌ Invalid choice. Try again.") 
+                print(" Invalid choice. Try again.") 
 
 # Run the tracker
 if __name__ == "__main__":
